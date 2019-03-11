@@ -1,0 +1,7 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Tue Dec 11 21:08:17 2018
+        MODULE VOLINT__genmod
+          INTERFACE 
+            SUBROUTINE VOLINT
+            END SUBROUTINE VOLINT
+          END INTERFACE 
+        END MODULE VOLINT__genmod
