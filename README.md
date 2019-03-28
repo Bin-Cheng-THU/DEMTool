@@ -12,28 +12,18 @@ The software implements the Discrete Element Method (DEM), coupled with NBody gr
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project for development and testing purposes.
 
 ### Structure
-  `Data`: storage for data file, including point data, wall data and biDisperse data
+  `Data`: storage for data file including point data, wall data and biDisperse data.
   
-  `src`: source code of DEMBody
+  `src`: source code of DEMBody.
   
-  `Input`: input files, including systemControl.dembody, input_points.txt, bondedWallPoint.vtk, trimeshWall.mesh, bondedTriMeshWall.mesh, largeParticles.bidisperse, gravTriMesh.force.
+  `Input`: input files including systemControl.dembody, input_points.txt, bondedWallPoint.vtk, trimeshWall.mesh, bondedTriMeshWall.mesh, largeParticles.bidisperse, gravTriMesh.force.
 
-### Installing
+### Pre-/Post-process
 
-Compile codes using make file.
-
-```
-make
-```
-
-And repeat
-
-```
-make clean
-```
+We developed [DEMTool](https://github.com/Bin-Cheng-THU/DEMTool.git) for pre- and post- process for DEMBody, e.g., point/mesh file generation and data rending based on [POV-Ray](http://www.povray.org/).
 
 ## Authors
 
