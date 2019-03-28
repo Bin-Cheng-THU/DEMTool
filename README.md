@@ -1,5 +1,3 @@
-# DEMTool
-
 # DEMBody
 
 Investigation of geological features, surface evolution and in-situ exploration on celestrial bodies, e.g., size sorting/segregation on asteroid, mass creep/wasting during geological processes and locomotion dynamics of asteroid lander on granular layer.
@@ -17,10 +15,9 @@ The software implements the Discrete Element Method (DEM), coupled with NBody gr
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Structure
-`Data`: 
-### Pre-process
-
-Modify systemControl.dembody, input_points.txt and other input files needed.
+	`Data`: storage for data file, including point data, wall data and biDisperse data
+	'src': source code of DEMBody
+	'input': input files, including systemControl.dembody, input_points.txt, bondedWallPoint.vtk, trimeshWall.mesh, bondedTriMeshWall.mesh, largeParticles.bidisperse, gravTriMesh.force.
 
 ### Installing
 
@@ -36,12 +33,6 @@ And repeat
 make clean
 ```
 
-Then submit to PC clusters
-
-```
-yhbatch DEMBody.sh
-```
-
 ## Authors
 
 * **Bin Cheng** - *Initial work* - [Bin-Cheng-THU](https://github.com/Bin-Cheng-THU)
@@ -55,5 +46,5 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE
 ## Acknowledgments
 
 * Prof. Baoyin and colleagues in LAD
-* My girlfriend Fanbing ZENG
+* My girlfriend Fanbing Zeng
 * My parents, brother and whole family
