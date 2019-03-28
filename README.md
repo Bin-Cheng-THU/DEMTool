@@ -1,6 +1,6 @@
 # DEMBody
 
-Investigation of geological features, surface evolution and in-situ exploration on celestrial bodies, e.g., size sorting/segregation on asteroid, mass creep/wasting during geological processes and locomotion dynamics of asteroid lander on granular layer.
+The software focus on investigation of geological features, surface evolution and in-situ exploration on celestrial bodies, e.g., size sorting/segregation on asteroid, mass creep/wasting during geological processes and locomotion dynamics of asteroid lander on granular layer.
 
 The software implements the Discrete Element Method (DEM), coupled with NBody gravity simulation. DEMBody is designed for execution on parallel supercomputers, clusters or multi-core PCs running a Linux (or Windows)-based operating system. 
 
@@ -16,7 +16,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Structure
   `Data`: storage for data file, including point data, wall data and biDisperse data
+  
   `src`: source code of DEMBody
+  
   `Input`: input files, including systemControl.dembody, input_points.txt, bondedWallPoint.vtk, trimeshWall.mesh, bondedTriMeshWall.mesh, largeParticles.bidisperse, gravTriMesh.force.
 
 ### Installing
