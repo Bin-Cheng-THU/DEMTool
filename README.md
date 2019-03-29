@@ -18,8 +18,8 @@
 
 DEMBody software contributors include:
 
-*[Bin Cheng](https://www.researchgate.net/profile/Bin_Cheng21), Tsinghua University
-*[Yang Yu](https://www.researchgate.net/profile/Yang_Yu16), Beihang University
-*[Yun Zhang](https://www.researchgate.net/profile/Yun_Zhang50), Tsinghua University
+* [Bin Cheng](https://www.researchgate.net/profile/Bin_Cheng21), Tsinghua University
+* [Yang Yu](https://www.researchgate.net/profile/Yang_Yu16), Beihang University
+* [Yun Zhang](https://www.researchgate.net/profile/Yun_Zhang50), Tsinghua University
 
 For further information about DEMBody authors, please email chengb16@mails.tsinghua.edu.cn
