@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 24 12:14:57 2019
+        MODULE PRECAL__genmod
+          INTERFACE 
+            SUBROUTINE PRECAL
+              USE GLOBAL
+            END SUBROUTINE PRECAL
+          END INTERFACE 
+        END MODULE PRECAL__genmod
