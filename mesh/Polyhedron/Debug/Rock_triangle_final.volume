@@ -1,0 +1,30 @@
+The Volume Information in Original Frame (where the initial vertice coordinates are expressed): 
+
+   1. The volume V =  2.573697485935e+002
+
+   2. The centroid (xc, yc, zc) = (  2.778969068770e-010 -1.846799304910e-010  2.531001145861e-011   )
+
+   3. The inertia tensor matrix (density = 1)
+
+                [Ixx  Ixy  Ixz]   [  1.304307787815e+003  7.302388366215e-008  4.114094858624e-009   ]
+
+                [Ixy  Iyy  Iyz] = [  7.302388366215e-008  2.542186342193e+003 -1.352043402236e-008   ]
+
+                [Ixz  Iyz  Izz]   [  4.114094858624e-009 -1.352043402236e-008  3.165060416354e+003   ]
+
+
+The Volume Information in Normalized Frame (origin at the mass center, scaled by L, and x-, y-, z-axes are minimum, medium, maximum principle inertial axes): 
+
+   1. The length scale used for normalization L =1.000000000000e+000
+
+   2. The volume V =  2.573697485935e+002
+
+   3. The centroid (xc, yc, zc) = ( -3.527146449572e-016 -2.620589603657e-016  6.193316653010e-017   )
+
+   4. The inertia tensor matrix (density = 1)
+
+                [Ixx  Ixy  Ixz]   [  1.304307787815e+003  3.806677195684e-014 -7.616466051602e-014   ]
+
+                [Ixy  Iyy  Iyz] = [  3.806677195684e-014  2.542186342193e+003 -5.748873599387e-014   ]
+
+                [Ixz  Iyz  Izz]   [ -7.616466051602e-014 -5.748873599387e-014  3.165060416354e+003   ]
