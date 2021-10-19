@@ -56,7 +56,7 @@ fprintf('MATLAB计算步长  %d\n', diff(Time(1:2)));
 %% Packing check
 fprintf('*********************************\n');
 fprintf('堆积模型估计：\n');
-force = Rho*Phi*g*H*pi*r^2;
+force = Rho*Phi*g*H*pi*r^2*5; % correction for 2d sphere packing ratio
 BottomeOverlap = (force*3*(1-nu^2)/2/E/sqrt(r))^(2/3);
 fprintf('最大重叠量  %.4f%%\n', BottomeOverlap*100);
 %% Sound velocity check
