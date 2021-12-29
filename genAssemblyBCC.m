@@ -1,8 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %           generate an Assembly system with a BBC configuration
-%           output: TriMesh
+%           output: input files
 %
-%           description: particle enerator
+%           description: particle generator
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc;clear;
 format long;
